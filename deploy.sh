@@ -18,3 +18,4 @@ fi
 
 # Run the new container
 sudo docker run -p 3000:3000 -d --name $CONTAINER_NAME $IMAGE_NAME
+#
