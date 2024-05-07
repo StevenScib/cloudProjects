@@ -20,7 +20,7 @@ orbs:
 
 jobs:
   build:
-    working_directory: ~/cloudProject
+    working_directory: ~/cloudProjects
     docker:
       - image: cimg/ruby:3.1.0
     steps:
