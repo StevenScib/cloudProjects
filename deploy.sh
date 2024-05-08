@@ -16,5 +16,9 @@ if [ "$CONTAINER_EXISTS" ]; then
     sudo docker rm $CONTAINER_NAME
 fi
 
+<<<<<<< HEAD
 #    Run the new container
+=======
+# Run the new container
+>>>>>>> 9ceb07857f960216c71e5124684ff8ac28a3d2b8
 sudo docker run -p 3000:3000 -d --name $CONTAINER_NAME $IMAGE_NAME
